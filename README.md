@@ -47,7 +47,6 @@ The Dockerfile included in this repository leverages the official PyTorch image 
 .
 ├── CV_1921463
     ├── workspace_sys
-    |   ├── MvTec_dataset                   # sample dataset
     |   ├── CNN_trans
     |   │   ├── train.py
     |   │   ├── test.py
