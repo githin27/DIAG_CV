@@ -1,0 +1,22 @@
+version: '3.8'
+
+services:
+  pytorch-notebook:
+    build: .
+    ports:
+      - "8888:8888"
+    volumes:
+      - ./workspace_sys:/workspace_container
+    environment:
+      - NVIDIA_VISIBLE_DEVICES=all
+      - NVIDIA_DRIVER_CAPABILITIES=compute,utility
+      - DISPLAY=host.docker.internal:0.0              # X forwarding to Windows host
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: all
+              capabilities: [gpu]
+    #runtime: nvidia
+    container_name: CV

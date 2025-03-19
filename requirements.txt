@@ -1,0 +1,12 @@
+tqdm
+torch
+matplotlib
+scikit-learn
+opencv-python
+natsort
+timm
+scikit-image
+transformers
+torchsummary
+piq
+seaborn
