@@ -63,7 +63,7 @@ The Dockerfile included in this repository leverages the official PyTorch image 
     ├── requirements.txt
 
 ```
-The command for training and testing is provided based on this directory structure. You can also download the code from the [drive]([your-google-drive-folder-link](https://drive.google.com/drive/folders/1Lhkgff7GuEAv9HrDBuoQIU60Dlga_usQ?usp=sharing))
+The command for training and testing is provided based on this directory structure. You can also download the code from the [drive](https://drive.google.com/drive/folders/1Lhkgff7GuEAv9HrDBuoQIU60Dlga_usQ?usp=sharing)
 # CNN + Tranformer
 To train the code either can pass the dataset and the number of epochs:
 ```bash
